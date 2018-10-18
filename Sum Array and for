@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+
+namespace SoloLearn
+{
+	class Program
+	{
+		static void Main(string[] args)
+		{
+		    int suma = 0;
+			Console.WriteLine("Suma");
+			int [] num = { 10, 34, 23, 56 };
+			for (int x=0; x<num.Length; x++)
+			{
+			    suma = suma + num[x];
+			    
+			}
+			Console.WriteLine(suma);
+			Console.WriteLine("Resultado", suma);
+		}
+	}
+}
